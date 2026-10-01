@@ -1,0 +1,23 @@
+# Root-level ignores for the whole monorepo
+node_modules/
+client/node_modules/
+server/node_modules/
+
+dist/
+client/dist/
+server/dist/
+
+# Environment files
+.env
+server/.env
+client/.env
+.env.*
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor settings
+.vscode/
+.idea/
+.DS_Store
